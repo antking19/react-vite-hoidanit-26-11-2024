@@ -8,12 +8,6 @@ import { SecondComponent } from "./components/learn/SecondComponent";
 const App = () => {
     const [count, setCount] = useState(0);
 
-    const myFunction = () => {
-        console.log("run my arrow function");
-    };
-
-    myFunction();
-
     return (
         <>
             <div>
