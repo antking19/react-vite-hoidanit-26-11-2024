@@ -3,7 +3,7 @@ const SecondComponent = () => {
 };
 
 const ThirdComponent = () => {
-    return <div>second component</div>;
+    return <div>Third component</div>;
 };
 
 export { SecondComponent, ThirdComponent };
