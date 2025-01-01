@@ -25,6 +25,7 @@ const TodoData = (props) => {
                     <div className="todo-edit">Edit</div>
                 </div>
             </div>
+            <div>{JSON.stringify(props.todoList)}</div>
         </div>
     );
 };

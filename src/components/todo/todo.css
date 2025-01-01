@@ -20,6 +20,7 @@
 .todo-new {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .todo-new input {
@@ -34,11 +35,13 @@
 
 .btn {
     width: 80px;
+    height: 45px;
     border: none;
     border-radius: 5px;
     background-color: rgb(61, 122, 255);
     color: #fff;
     cursor: pointer;
+    margin-right: 10px;
 }
 
 .todo-data {
