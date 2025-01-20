@@ -1,9 +1,11 @@
 const TodoData = (props) => {
-    const { name, age, data, todoList } = props;
-    console.log(">>> Check props: ", props);
+    const { todoList } = props;
+    console.log(">>> Check props: ", todoList);
     return (
         <div className="todo-data">
-            <div className="todo-item">My name is {name}</div>
+            {todoList.map(() => {
+                return <div className="todo-item">hoidanit</div>;
+            })}
             <div className="todo-item">
                 <div>Learning React</div>
                 <div className="todo-button">
